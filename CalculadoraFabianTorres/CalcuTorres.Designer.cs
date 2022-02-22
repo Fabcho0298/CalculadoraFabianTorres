@@ -313,13 +313,14 @@ namespace CalculadoraFabianTorres
             // tbxDisplay
             // 
             this.tbxDisplay.BackColor = System.Drawing.Color.Bisque;
-            this.tbxDisplay.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.tbxDisplay.Enabled = false;
+            this.tbxDisplay.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.tbxDisplay.ForeColor = System.Drawing.SystemColors.WindowText;
             this.tbxDisplay.Location = new System.Drawing.Point(48, 23);
             this.tbxDisplay.Multiline = true;
             this.tbxDisplay.Name = "tbxDisplay";
             this.tbxDisplay.ReadOnly = true;
-            this.tbxDisplay.Size = new System.Drawing.Size(298, 44);
+            this.tbxDisplay.Size = new System.Drawing.Size(298, 55);
             this.tbxDisplay.TabIndex = 26;
             this.tbxDisplay.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.tbxDisplay.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
@@ -355,10 +356,12 @@ namespace CalculadoraFabianTorres
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnClearError);
             this.Controls.Add(this.btnMemoryMinus);
+            this.KeyPreview = true;
             this.Name = "CalcuFabcho";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CalcuFabcho";
             this.Load += new System.EventHandler(this.CalcuFabcho_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CalcuFabcho_KeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();
 

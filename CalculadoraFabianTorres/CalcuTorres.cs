@@ -333,5 +333,43 @@ namespace CalculadoraFabianTorres
                 tbxDisplay.Text = "";
             }
         }
+
+        private void CalcuFabcho_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Control && e.KeyCode == Keys.L)
+            {
+                this.btnMemoryClear_Click(sender, e);
+            }
+
+            if (e.Control && e.KeyCode == Keys.R)
+            {
+                this.btnMemoryRecall_Click(sender, e);
+            }
+
+            if (e.Control && e.KeyCode == Keys.M)
+            {
+                this.btnMemoryStorage_Click(sender, e);
+            }
+
+            if (e.Control && e.KeyCode == Keys.P)
+            {
+                this.btnMemoryPlus_Click(sender, e);
+            }
+
+            if (e.Control && e.KeyCode == Keys.Q)
+            {
+                this.btnMemoryMinus_Click(sender, e);
+            }
+
+            if (e.KeyCode == Keys.Delete)
+            {
+                this.btnClearError_Click(sender, e);
+            }
+
+            if (e.KeyCode == Keys.Escape)
+            {
+                this.btnClear_Click(sender, e);
+            }
+        }
     }
 }
