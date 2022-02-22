@@ -58,43 +58,47 @@ namespace CalculadoraFabianTorres
             // 
             // btnMemoryMinus
             // 
+            this.btnMemoryMinus.BackColor = System.Drawing.Color.Coral;
             this.btnMemoryMinus.Location = new System.Drawing.Point(48, 84);
             this.btnMemoryMinus.Name = "btnMemoryMinus";
             this.btnMemoryMinus.Size = new System.Drawing.Size(57, 40);
             this.btnMemoryMinus.TabIndex = 0;
             this.btnMemoryMinus.Text = "M-";
-            this.btnMemoryMinus.UseVisualStyleBackColor = true;
+            this.btnMemoryMinus.UseVisualStyleBackColor = false;
             this.btnMemoryMinus.Click += new System.EventHandler(this.btnMemoryMinus_Click);
             // 
             // btnClearError
             // 
+            this.btnClearError.BackColor = System.Drawing.Color.DarkSalmon;
             this.btnClearError.Location = new System.Drawing.Point(48, 130);
             this.btnClearError.Name = "btnClearError";
             this.btnClearError.Size = new System.Drawing.Size(57, 40);
             this.btnClearError.TabIndex = 1;
             this.btnClearError.Text = "CE";
-            this.btnClearError.UseVisualStyleBackColor = true;
+            this.btnClearError.UseVisualStyleBackColor = false;
             this.btnClearError.Click += new System.EventHandler(this.btnClearError_Click);
             // 
             // btnMOD
             // 
+            this.btnMOD.BackColor = System.Drawing.Color.Coral;
             this.btnMOD.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnMOD.Location = new System.Drawing.Point(48, 222);
             this.btnMOD.Name = "btnMOD";
             this.btnMOD.Size = new System.Drawing.Size(57, 40);
             this.btnMOD.TabIndex = 3;
             this.btnMOD.Text = "MOD";
-            this.btnMOD.UseVisualStyleBackColor = true;
+            this.btnMOD.UseVisualStyleBackColor = false;
             this.btnMOD.Click += new System.EventHandler(this.btnMOD_Click);
             // 
             // btnClear
             // 
+            this.btnClear.BackColor = System.Drawing.Color.DarkSalmon;
             this.btnClear.Location = new System.Drawing.Point(48, 176);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(57, 40);
             this.btnClear.TabIndex = 2;
             this.btnClear.Text = "C";
-            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.UseVisualStyleBackColor = false;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnNum0
@@ -139,22 +143,24 @@ namespace CalculadoraFabianTorres
             // 
             // btnMemoryPlus
             // 
+            this.btnMemoryPlus.BackColor = System.Drawing.Color.Coral;
             this.btnMemoryPlus.Location = new System.Drawing.Point(111, 84);
             this.btnMemoryPlus.Name = "btnMemoryPlus";
             this.btnMemoryPlus.Size = new System.Drawing.Size(55, 40);
             this.btnMemoryPlus.TabIndex = 5;
             this.btnMemoryPlus.Text = "M+";
-            this.btnMemoryPlus.UseVisualStyleBackColor = true;
+            this.btnMemoryPlus.UseVisualStyleBackColor = false;
             this.btnMemoryPlus.Click += new System.EventHandler(this.btnMemoryPlus_Click);
             // 
             // btnMinus
             // 
+            this.btnMinus.BackColor = System.Drawing.Color.Bisque;
             this.btnMinus.Location = new System.Drawing.Point(172, 268);
             this.btnMinus.Name = "btnMinus";
             this.btnMinus.Size = new System.Drawing.Size(54, 40);
             this.btnMinus.TabIndex = 14;
             this.btnMinus.Text = "-";
-            this.btnMinus.UseVisualStyleBackColor = true;
+            this.btnMinus.UseVisualStyleBackColor = false;
             this.btnMinus.Click += new System.EventHandler(this.btnMinus_Click);
             // 
             // btnNum2
@@ -189,62 +195,68 @@ namespace CalculadoraFabianTorres
             // 
             // btnMemoryStorage
             // 
+            this.btnMemoryStorage.BackColor = System.Drawing.Color.Coral;
             this.btnMemoryStorage.Location = new System.Drawing.Point(172, 84);
             this.btnMemoryStorage.Name = "btnMemoryStorage";
             this.btnMemoryStorage.Size = new System.Drawing.Size(54, 40);
             this.btnMemoryStorage.TabIndex = 10;
             this.btnMemoryStorage.Text = "MS";
-            this.btnMemoryStorage.UseVisualStyleBackColor = true;
+            this.btnMemoryStorage.UseVisualStyleBackColor = false;
             this.btnMemoryStorage.Click += new System.EventHandler(this.btnMemoryStorage_Click);
             // 
             // btnPlus
             // 
+            this.btnPlus.BackColor = System.Drawing.Color.Bisque;
             this.btnPlus.Location = new System.Drawing.Point(293, 222);
             this.btnPlus.Name = "btnPlus";
             this.btnPlus.Size = new System.Drawing.Size(53, 86);
             this.btnPlus.TabIndex = 19;
             this.btnPlus.Text = "+";
-            this.btnPlus.UseVisualStyleBackColor = true;
+            this.btnPlus.UseVisualStyleBackColor = false;
             this.btnPlus.Click += new System.EventHandler(this.btnPlus_Click);
             // 
             // btnDivision
             // 
+            this.btnDivision.BackColor = System.Drawing.Color.Bisque;
             this.btnDivision.Location = new System.Drawing.Point(293, 176);
             this.btnDivision.Name = "btnDivision";
             this.btnDivision.Size = new System.Drawing.Size(53, 40);
             this.btnDivision.TabIndex = 17;
             this.btnDivision.Text = "/";
-            this.btnDivision.UseVisualStyleBackColor = true;
+            this.btnDivision.UseVisualStyleBackColor = false;
             this.btnDivision.Click += new System.EventHandler(this.btnDivision_Click);
             // 
             // btnProduct
             // 
+            this.btnProduct.BackColor = System.Drawing.Color.Bisque;
             this.btnProduct.Location = new System.Drawing.Point(293, 130);
             this.btnProduct.Name = "btnProduct";
             this.btnProduct.Size = new System.Drawing.Size(53, 40);
             this.btnProduct.TabIndex = 16;
             this.btnProduct.Text = "*";
-            this.btnProduct.UseVisualStyleBackColor = true;
+            this.btnProduct.UseVisualStyleBackColor = false;
             this.btnProduct.Click += new System.EventHandler(this.btnProduct_Click);
             // 
             // btnMemoryClear
             // 
+            this.btnMemoryClear.BackColor = System.Drawing.Color.Coral;
             this.btnMemoryClear.Location = new System.Drawing.Point(293, 84);
             this.btnMemoryClear.Name = "btnMemoryClear";
             this.btnMemoryClear.Size = new System.Drawing.Size(53, 40);
             this.btnMemoryClear.TabIndex = 15;
             this.btnMemoryClear.Text = "MC";
-            this.btnMemoryClear.UseVisualStyleBackColor = true;
+            this.btnMemoryClear.UseVisualStyleBackColor = false;
             this.btnMemoryClear.Click += new System.EventHandler(this.btnMemoryClear_Click);
             // 
             // btnEquals
             // 
+            this.btnEquals.BackColor = System.Drawing.Color.DarkSlateGray;
             this.btnEquals.Location = new System.Drawing.Point(232, 268);
             this.btnEquals.Name = "btnEquals";
             this.btnEquals.Size = new System.Drawing.Size(55, 40);
             this.btnEquals.TabIndex = 24;
             this.btnEquals.Text = "=";
-            this.btnEquals.UseVisualStyleBackColor = true;
+            this.btnEquals.UseVisualStyleBackColor = false;
             this.btnEquals.Click += new System.EventHandler(this.btnEquals_Click);
             // 
             // btnNum3
@@ -279,12 +291,13 @@ namespace CalculadoraFabianTorres
             // 
             // btnMemoryRecall
             // 
+            this.btnMemoryRecall.BackColor = System.Drawing.Color.Coral;
             this.btnMemoryRecall.Location = new System.Drawing.Point(232, 84);
             this.btnMemoryRecall.Name = "btnMemoryRecall";
             this.btnMemoryRecall.Size = new System.Drawing.Size(55, 40);
             this.btnMemoryRecall.TabIndex = 20;
             this.btnMemoryRecall.Text = "MR";
-            this.btnMemoryRecall.UseVisualStyleBackColor = true;
+            this.btnMemoryRecall.UseVisualStyleBackColor = false;
             this.btnMemoryRecall.Click += new System.EventHandler(this.btnMemoryRecall_Click);
             // 
             // btnDecimal
@@ -299,12 +312,14 @@ namespace CalculadoraFabianTorres
             // 
             // tbxDisplay
             // 
+            this.tbxDisplay.BackColor = System.Drawing.Color.Bisque;
             this.tbxDisplay.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.tbxDisplay.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.tbxDisplay.Location = new System.Drawing.Point(48, 34);
+            this.tbxDisplay.Location = new System.Drawing.Point(48, 23);
+            this.tbxDisplay.Multiline = true;
             this.tbxDisplay.Name = "tbxDisplay";
             this.tbxDisplay.ReadOnly = true;
-            this.tbxDisplay.Size = new System.Drawing.Size(298, 30);
+            this.tbxDisplay.Size = new System.Drawing.Size(298, 44);
             this.tbxDisplay.TabIndex = 26;
             this.tbxDisplay.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.tbxDisplay.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
@@ -313,6 +328,7 @@ namespace CalculadoraFabianTorres
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(394, 355);
             this.Controls.Add(this.tbxDisplay);
             this.Controls.Add(this.btnDecimal);
